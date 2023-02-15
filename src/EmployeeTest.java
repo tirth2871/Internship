@@ -7,8 +7,8 @@ public class EmployeeTest {
         Employee[] staff= new Employee[3];
 
         staff[0] = new Employee("Tirth Shah", 75000, 2001, 12, 15);
-        staff[1] = new Employee("Harsh Patel", 80000, 2002, 15, 18);
-        staff[2] = new Employee("Abhishek Patel", 90000, 2001, 18, 21);
+        staff[1] = new Employee("Harsh Patel", 80000, 2002, 12, 18);
+        staff[2] = new Employee("Abhishek Patel", 90000, 2001, 12, 21);
 
         //raise everyone's salary by 5%
         for (Employee e : staff)
@@ -16,7 +16,7 @@ public class EmployeeTest {
 
         // print info about all Employee objects
         for (Employee e : staff)
-            System.out.println("Name: " + e.getName() + "Salary: " + e.getSalary() + "Hire Day: " + e.getHireDay());
+            System.out.println("Name: " + e.getName() + " Salary: " + e.getSalary() + " Hire Day: " + e.getHireDay());
     }
 }
 
