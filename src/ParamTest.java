@@ -67,6 +67,6 @@ class Employee3 { // simplified Employee class
 
     public void raiseSalary(double byPercent) {
         double raise = salary * byPercent / 100;
-
+        salary += raise;
     }
 }
