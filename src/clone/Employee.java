@@ -15,7 +15,7 @@ public class Employee implements Cloneable {
         hireDay = new Date();
     }
 
-    public Employee clone() {
+    public Employee clone() throws CloneNotSupportedException {
 
         // call Object.clone();
         Employee cloned = (Employee) super.clone();
@@ -41,6 +41,6 @@ public class Employee implements Cloneable {
     }
 
     public String toString() {
-        return "Employee[Name = " + name + "Salary = " + salary + " HireDay = " + hireDay + "]"
+        return "Employee[Name = " + name + "Salary = " + salary + " HireDay = " + hireDay + "]";
     }
 }
