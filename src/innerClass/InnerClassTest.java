@@ -8,7 +8,6 @@ import javax.swing.*;
 import javax.swing.Timer;
 
 public class InnerClassTest {
-
     public static void main(String[] args) {
 
         TalkingClock clock = new TalkingClock(5000, true);
@@ -21,7 +20,6 @@ public class InnerClassTest {
 }
 
 class TalkingClock {
-
     private int interval;
     private boolean beep;
 
